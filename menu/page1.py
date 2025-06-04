@@ -1,3 +1,4 @@
+import streamlit as st
 st.title("🧪 산-염기 반응 시뮬레이터")
 
 acids = {"HCl": "강산", "H₂SO₄": "강산", "CH₃COOH": "약산"}
