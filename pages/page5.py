@@ -1,5 +1,5 @@
 import streamlit as st
-elif page == "침전 반응":
+
 st.title("🧬 침전 반응")
 
 reactions = {
