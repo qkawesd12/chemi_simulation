@@ -75,7 +75,7 @@ st.markdown("""
   page1 - 산-염기 반응 시뮬레이션<br>
   page2 - 산화-환 반응 시뮬레이션<br>
   page3 - 몰 수 / 농도 계산기<br>
-  page4 - 기체 발생 반<br>
+  page4 - 기체 발생 반응<br>
   page5 - 침전 반응
 </div>
 """, unsafe_allow_html=True)
