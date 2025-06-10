@@ -25,7 +25,7 @@ if st.button("반응 확인"):
     #산과 염기의 몰 비율 계산 및 표시
       ratio = round(acid_mol / base_mol, 2)
       st.write(f"산/염기 몰 비율: {ratio}")
-    #몰 비율에 따른 반응 상태 분
+    #몰 비율에 따른 반응 상태 분석 
       if abs(ratio - 1) < 0.05:
         st.success("완전 중화")
       elif ratio < 1:
