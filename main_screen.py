@@ -65,22 +65,19 @@ st.markdown("""
         box-shadow: 0 2px 8px rgba(90, 82, 255, 0.25);
     }
 }
-</style>
+</style> #시뮬레이터 상단 타이틀 영역 표시
 """, unsafe_allow_html=True)
 
-#시뮬레이터 상단 타이틀 영역 표시
 st.markdown("""
 <div class="meal-item">
   <div>🔬 <strong>화학 반응 시뮬레이터</strong></div>
   <div>⚗️ 💥 🌡️</div>
-#간단한 설명 문구 표시시
-</div>
+</div> #간단한 설명 문구 표시
 <div class="description">
   🔎 산·염기 중화 · 산화·환원 · 몰 농도 계산을 간편하게<br>
   ✨ 쉽고 빠르게 화학 반응을 이해하는 학습 도우미
 </div>
-#페이지 목록 소개용 설명 박스
-<div class="description">
+<div class="description"> #페이지 목록 소개용 설명 박스
   page1 - 산-염기 반응 시뮬레이션<br>
   page2 - 산화-환원 반응 시뮬레이션<br>
   page3 - 몰 수 / 농도 계산기<br>
